@@ -11,6 +11,7 @@ const nav = () => {
           
             <div className='worker_cont'>
                 <div className='co_work'>
+                    
                 <img src={logo} alt="Wrong_Url" className='icon_sty'/>
                 <p className='paragraph co_para'>Farzana Shaik</p>
                 </div>

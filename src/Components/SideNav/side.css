@@ -70,10 +70,21 @@
         height:30px;
         width:30px;
         border-radius: 20px;
+       margin-left:0px;
+       align-self: center;
       
     }
     .co_para{
         color:black;
         font-size:14px;
+       text-align: center;
+    }
+    .nav_head{
+        font-size:14px;
+    }
+    .nav_cont{
+        width:30%;
+        margin-left:5px;
+        margin-right:5px;
     }
 }
