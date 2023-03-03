@@ -1,7 +1,7 @@
 import React from 'react';
 import "./side.css";
-import icon from "../../images/manager.png"
-import logo from "../../images/icon.jpg"
+import icon from "../../images/manager.png";
+import logo from "../../images/icon.jpg";
 const nav = () => {
     return (
         <div className='nav_cont'>
