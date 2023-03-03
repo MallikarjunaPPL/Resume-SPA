@@ -1,0 +1,100 @@
+.task_cont{
+
+    padding:8px;
+    margin:18px;
+    background-color: aliceblue;
+}
+.task_head{
+    font-family:"Adobe Arabic";
+    font-size:23px;
+    color:black;
+
+}
+.task_container{
+    border-style: solid;
+    border-width: 2px;
+    border-radius:6px;
+    border-color: darkmagenta;
+    padding:15px;
+    margin:10px;
+    background-color: #FFFFE0;
+}
+.tab{
+    width:97%;
+   
+}
+.head_h2{
+    font-family:"Adobe Arabic";
+    font-size:19px;
+    color:grey;
+}
+.progress{
+    height:25px;
+    width:90%;
+}
+input{
+    background-color:green;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Adobe Arabic";
+    font-size:18px;
+    font-weight: lighter;
+    padding:4px;
+    text-align: center;
+   
+  }
+  .bottom_cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top:16px;
+  }
+  .head_task{
+    font-family: "Adobe Arabic";
+    font-size:18px;
+    font-weight: lighter;
+  }
+  .btn{
+    background-color: cadetblue;
+    color:black;
+    border-radius: 7px;
+    width:120px;
+    height:40px;
+  }
+  @media (max-width:912px){
+    table, th, td {
+        
+        font-size:7px;
+        font-weight: lighter;
+        padding:2px;
+        text-align: center;
+       
+      }
+      .tab{
+        width:45%;
+       
+    }
+    .bottom_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top:16px;
+      }
+      .btn{
+        background-color: cadetblue;
+        color:black;
+        border-radius: 7px;
+        width:60px;
+        height:20px;
+        margin-top:8px;
+      }
+      .task_container{
+        border-style: solid;
+        border-width: 2px;
+        border-radius:6px;
+        border-color: darkmagenta;
+        padding:8px;
+    
+    }
+  }

@@ -1,0 +1,38 @@
+.proj_cont{
+ 
+    padding:9px 9px 25px 9px;
+    margin-top:90px;
+    width:80%;
+}
+.project{
+    border-style: solid;
+    border-width: 4px;
+    border-radius:6px;
+    border-color: darkmagenta;
+}
+.head_cont{
+    padding:9px 35px 9px 35px;
+ 
+}
+.head_h2{
+    font-family:"Adobe Arabic";
+    font-size:19px;
+    color:grey;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.head_h3{
+    font-family:"Adobe Arabic";
+    font-size:18px;
+    color:grey;
+}
+.progress{
+    height:25px;
+    width:90%;
+}
+@media (max-width:912px){
+    .proj_cont{
+       
+        width:48%;
+    }
+}

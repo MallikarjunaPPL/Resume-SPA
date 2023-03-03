@@ -1,0 +1,13 @@
+
+  .btn_cont{
+    display: flex;
+    width:98%;
+  
+  }
+  @media (max-width:912px){
+    .btn_cont{
+      display: flex;
+      width:99%;
+    
+    }
+  }

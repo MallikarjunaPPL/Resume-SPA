@@ -1,0 +1,29 @@
+.header_cont{
+    background-color: var(--bgrndColor);
+    position:fixed;
+    top:0;
+    width:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius:6px;
+    border-color: var(--borderColor);
+    padding:20px;
+  
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-around;
+    }
+    .head_h1{
+        font-family:"Adobe Arabic";
+        font-size:23px;
+        color:black;
+      
+    }
+    @media (max-width:912px){
+        .header_cont{
+          
+            width:100%;
+            
+            }
+    }
